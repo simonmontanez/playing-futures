@@ -5,6 +5,8 @@
 #### Example 1 - Spring @Async
 
 Main classes: `Application` and `ServiceTaxes` 
+https://github.com/simonmontanez/playing-futures/blob/master/java/src/main/java/com/company/Application.java#L15
+
 
 Using Spring @Async the `ServiceTaxes.getDiscount()` and  `ServiceTaxes.getTaxes()` methods return
 a `CompletableFuture` each one running in a different thread pool. Thus, the functions executed inside 
